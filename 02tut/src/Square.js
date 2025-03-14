@@ -15,4 +15,8 @@ const Square = ({search, color}) => {
   )
 }
 
+Square.defaultProps = {
+  seacrh: "Empty Color Value"
+}
+
 export default Square
